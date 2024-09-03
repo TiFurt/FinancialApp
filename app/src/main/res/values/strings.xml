@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Financial App</string>
+    <string name="investing_time">Qual data de vencimento do investimento?</string>
+    <string name="value">Quanto você gostaria de aplicar?</string>
+    <string name="calculate">Calcular</string>
+    <string name="money">R$ 0,00</string>
+    <string name="simulation_result_label">Resultado da simulação</string>
+    <string name="start_applied_value_label">Valor aplicado inicialmente</string>
+    <string name="gross_value_invested_label">Valor bruto investido</string>
+    <string name="income_value_label">Valor do rendimento</string>
+    <string name="tax_label">IR sobre o investimento</string>
+    <string name="redemption_date_label">Data de resgate</string>
+    <string name="liquid_value_label">Valor líquido do investimento</string>
+    <string name="calendar_days_label">Dias corridos</string>
+    <string name="monthly_income_label">Rendimento mensal</string>
+    <string name="period_income_label">Rentabilidade no período</string>
+    <string name="yearly_income_label">Rentabilidade anual</string>
+    <string name="percentage_income_label">Percentual do CDI do investimento</string>
+    <string name="simulate_again">Simular novamente</string>
 </resources>
