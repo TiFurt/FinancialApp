@@ -18,7 +18,7 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.Date;
 
 public class HomeActivity extends AppCompatActivity {
-    private Date investedTime = new Date();
+    private long investedTime = new Date().getTime();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +55,7 @@ public class HomeActivity extends AppCompatActivity {
     private void listenToCalendarView() {
         CalendarView calendarView = findViewById(R.id.invested_time);
         calendarView.setOnDateChangeListener((view, year, month, dayOfMonth) -> {
-            investedTime = new Date(year, month, dayOfMonth);
+            investedTime = new Date(year - 1900, month, dayOfMonth).getTime();
         });
     }
 }
